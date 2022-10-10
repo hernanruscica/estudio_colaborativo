@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Rocio Fernandez - Estudio Colaborativo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main class="contenedor-flex">
+        <article class="personal">
+            <section class="personal__cabecera">
+                <img  class="personal__cabecera__imagen" 
+                    id = "usuario-foto-perfil"
+                    src="imgs/camila-perfil.jpg" 
+                    alt="foto de perfil de camila fernandez"                    
+                    >
+                <h1 class="personal__cabecera__titulo"
+                    id = "usuario-nombre-apellido">
+                    Camila Rocio Fernandez
+                </h1>
+            </section>
+            
+            <section class="personal__descripcion ">
+                <p class="personal__descripcion__p">
+                    Esta es la descripcion de una estudiante generica de una escuela generica para completar este espacio de prueba, abajo pueden ver mis intereses
+                </p>
+            </section>
+            <section class="personal__intereses ">
+                <p class="personal__intereses_p">
+                    Me interesa: 
+                </p>
+                <a href="#" class="personal__intereses_btn">
+                    Matematica
+                </a>
+                <a  href="#" class="personal__intereses_btn">
+                    Quimica
+                </a>
+                <a href="#"  class="personal__intereses_btn">
+                    Pitagoras
+                </a>
+            </section>
+            <section class="personal__experiencia ">
+                <div class="personal__experiencia__item">                        
+                    <i class="fa-solid fa-graduation-cap personal__experiencia__item__icon"></i>
+                    <p class="personal__experiencia__item__texto">
+                        Egresada de profesorado N de la ciudad genérica de la provincia genérica
+                    </p>
+                </div>
+                <div class="personal__experiencia__item">                        
+                    <i class="fa-solid fa-school personal__experiencia__item__icon"></i>
+                    <p class="personal__experiencia__item__texto">
+                    Experiencia en la docencia secundaria y materias técnicas
+                    </p>
+                </div>
+            </section>
+            
+            <section class="personal__redes">
+                <p class="personal__redes__titulo">
+                    Estas son mis redes:
+                </p>
+                <div class="personal__redes__enlaces">
+                    <div class="personal__redes__enlaces__item">
+                        <a href="#facebook" class="personal__redes__enlaces__enlace">
+                            <i class="fa-brands fa-facebook personal__redes__enlaces__enlace__icon"></i>
+                        </a>
+                    </div>                        
+                    <div class="personal__redes__enlaces__item">
+                        <a href="#facebook" class="personal__redes__enlaces__enlace">
+                            <i class="fa-regular fa-envelope personal__redes__enlaces__enlace__icon"></i>
+                        </a>
+                    </div>
+                    <div class="personal__redes__enlaces__item">
+                        <a href="#facebook" class="personal__redes__enlaces__enlace">
+                            <i class="fa-brands fa-github personal__redes__enlaces__enlace__icon"></i>
+                        </a>
+                    </div>                        
+                    <div class="personal__redes__enlaces__item">
+                        <a href="#facebook" class="personal__redes__enlaces__enlace">
+                            <i class="fa-solid fa-globe  personal__redes__enlaces__enlace__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+        </article>
+        <article class="publicaciones">
+            <section class="publicaciones__cabecera">
+                <i class="fa-solid fa-bullhorn publicaciones__cabecera__icon"></i>
+                <p class="publicaciones__cabecera__texto">
+                    Mis publicaciones en el foro
+                </p>
+            </section>
+            <section class="publicaciones__container ">
+                <div class="publicaciones__container__item">
+                    <h3 class="publicaciones__container__item__titulo">
+                        Título de publicación genérica
+                    </h3>
+                    <p class="publicaciones__container__item__subtitulo ">
+                        Publicado el <span id="publicacion-fecha">07/10/2022 </span>
+                         en <span id="publicacion-categoria"> matematica </span>                          
+                    </p>
+                    <div class="publicaciones__container__item__contenido ">
+                        <p class="publicaciones__container__item__text">
+                            Descripción de publicación genérica. Hola, quiero aprender el teorema de pitágoras.
+                        </p>
+                        <!--
+                        <img src="./imgs/imagen-posteo.jpg" alt="" class="publicaciones__container__item__contenido__img">
+                        -->
+                    </div>
+                    <div class="publicaciones__container__item__info">
+                        <p class="publicaciones__container__item__info__comentarios" 
+                            id="publicacion-comentarios">
+                            3 Comentarios
+                        </p>
+                        <a href="#" class="publicaciones__container__item__info__btn"> ver en el foro</a>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
