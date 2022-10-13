@@ -160,7 +160,8 @@ body{
 
 .publicaciones__container__item__contenido__img{
     width: 100%;
-    max-width: 30vw;
+    max-width: 600px;
+    min-width: 200px;
     height: auto;
 }
 
