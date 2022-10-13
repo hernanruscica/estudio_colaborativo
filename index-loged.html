@@ -34,21 +34,30 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        </li>       
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Quienes somos?</a>
-                        </li>                                          
+                        <a class="nav-link" href="#">Mi Perfil</a>
+                        </li>                        
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Foros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Matematica</a></li>
+                            <li><a class="dropdown-item" href="#">Lengua</a></li>
+                            <li><a class="dropdown-item" href="#">Ciencias Sociales</a></li>
+                            <li><a class="dropdown-item" href="#">Ciencias Naturales</a></li>
+                            <!--<li><hr class="dropdown-divider"></li>-->                            
+                        </ul>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Registrarse</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link" href="index-loged.html">Ingresar
-                                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                            <a class="nav-link" href="index.html">Salir
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i>
                             </a>
                         </li>                        
                     </ul>
-                    <p style = "color: red; ">Usuario NO logueado</p>
+                    <p style = "color: green; ">Usuario logueado</p>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar en el foro" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -187,7 +196,6 @@
                     </div>
                 </div>
             </section>
-            
         </article>
     </main>
 </body>
