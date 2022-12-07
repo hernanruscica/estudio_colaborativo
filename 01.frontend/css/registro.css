@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.header__hero-img{
+    position: relative;
+}
+
+.header__hero-img__img{    
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(60%);
+}
+
+.header__hero-img__title,
+.header__hero-img__subtitle{
+    position: absolute;    
+    color: #eee;
+}
+
+.header__hero-img__title{
+    bottom: 30%;
+}
+.header__hero-img__subtitle{
+    bottom: 15%;
+}
